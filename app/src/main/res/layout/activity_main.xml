@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="English(India)▼" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bilbo"
+            android:gravity="center"
+            android:text="Instagram"
+            android:textSize="76dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username,email or mobile"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:layout_margin="1dp"
+            android:background="#ECECEC"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:background="#ECECEC"
+            android:layout_margin="1dp"
+            />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="276dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#4f5bd5"
+            android:text="Log in"
+            android:textColor="@color/design_default_color_surface"
+            android:textColorLink="#FFFFFF"
+            android:padding="2dp"
+            android:layout_margin="1dp"
+            android:onClick="navigateToSecondLayout"
+            app:rippleColor="#DB1414"
+            app:strokeColor="#E41E1E" />
+    </LinearLayout>
+
+</LinearLayout>
