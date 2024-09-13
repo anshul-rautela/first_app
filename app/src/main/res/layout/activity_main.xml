@@ -47,7 +47,7 @@
             android:background="#ECECEC"
             android:layout_margin="1dp"
             />
-
+        
         <Button
             android:id="@+id/playButton"
             android:layout_width="276dp"
